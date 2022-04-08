@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <CustomerForm />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import CustomerForm from "@/components/CustomerForm";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // eslint-disable-next-line vue/no-unused-components
+    HelloWorld,
+    CustomerForm
   }
 }
 </script>
